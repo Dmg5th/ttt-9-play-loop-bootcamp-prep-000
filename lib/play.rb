@@ -39,9 +39,9 @@ end
 
 def play(board)
  i = 0 
- loop do
+until i == 9 
  i +=1 
-break i == 9 
+break 
  turn(board)
   end
 end
